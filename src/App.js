@@ -69,7 +69,6 @@ function App() {
             <Footer key="footer" />,
           ]}
         />
-        
       </Routes>
     </>
   );
