@@ -1,61 +1,58 @@
 .master {
   min-height: 100vh;
-  background: linear-gradient(rgba(130, 212, 233, 0.7), #ffffff);
 }
+
 .child-1 {
   flex-basis: 40%;
   position: relative;
   margin-left: 45px;
 }
+
 .child-1 h2 {
   font-size: 50px;
 }
+
 .child-1 .headerh3 {
   font-size: 25px;
   color: #504747;
   font-weight: 100;
   margin: 20px 0 10px;
 }
+
 .child-1 p {
   font-size: 16px;
   color: #4e4c4c;
   font-weight: 100;
   margin: 30px 0;
 }
+
 .downloadBtn {
-  width: 140px;
+  width: auto;
   border: 0;
-  padding: 12px 10px;
+  padding: 1rem;
   outline: none;
   color: #fff;
-  background: linear-gradient(to right, #2e6ca5, #4034dd);
-  border-radius: 6px;
+  background: linear-gradient(to right, #ff2f13, #a9200e);
+  border-radius: 1rem;
   cursor: pointer;
   transition: width 0.5s;
 }
+
 .downloadBtn img {
-  width: 30px;
-  display: none;
+  margin-left: 0.2rem;
+  width: 15px;
 }
-.downloadBtn:hover img {
-  display: block;
-}
-.downloadBtn:hover {
-  width: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .child-1::after {
   content: "";
   width: 10px;
   height: 57%;
-  background: linear-gradient(#2e6ca5, #4034dd);
+  background: linear-gradient(#ff2f13, #a9200e);
   position: absolute;
   left: -40px;
   top: 8px;
 }
 
 .child-2 .controller {
-  width: 60%;
+  width: 80%;
 }
