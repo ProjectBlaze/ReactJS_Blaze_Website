@@ -10,7 +10,7 @@ const Doubts = () => {
         Well, unlocking your bootloader might sound suspicious, but, using a custom ROM easily outnumbers the advantages it has over stock OEM software. They don't contain bloatware and are more regularly updated than actual smartphone vendors. Worried about security issues? No problem. Custom ROM devs update their ROM sources atleast twice a month which ensures that it has the latest security patches from Google. Also, the whole source code is posted on public forums like GitHub where anyone can have a look at. A pro tip - do not follow advice of so called "YouTubers" who just declare custom ROMs are dangerous without any research.
       </div>
       <div className="imageside">
-        <img src={"images/safe.jpg"} alt=""/>
+        <img src={"images/safe.png"} alt=""/>
       </div>
     </div>
     <div className="containerchangelogleft">
@@ -56,7 +56,7 @@ const Doubts = () => {
         Blaze is unique from other android 12 ROMs - Remember how Google changed the whole way the QuickSettings panel looked? <b>Well, if you liked those smaller, round Quick Settings tiles from previous android versions which look much cleaner while also retaining the goodness of the MaterialYou theming system - then ProjectBlaze is for you. </b> ProjectBlaze is also a customization feature rich ROM where you can tweak the UI according to your needs. It also has some interesting extras like the all new GameSpace, colored statusbar icons, UDFPS customizations, clear all notifications button, and a ton more!!  
       </div>
       <div className="imageside">
-        <img src={"images/sc.jpg"} alt=""/>
+        <img src={"images/sc.png"} alt=""/>
       </div>
     </div>
 </section>
