@@ -5,9 +5,11 @@
   margin-top: 20px;
   margin-bottom: 25px;
 }
-.screenshot{
-    min-height: 100vh;
+
+.screenshot {
+  min-height: 100vh;
 }
+
 .screenshot .boxDesign {
   width: 80%;
   padding: 20px;
@@ -16,32 +18,38 @@
   flex-direction: row;
   justify-content: center;
 }
+
 .screenshot .boxDesign .box img {
   width: 90%;
   display: block;
   border-radius: 5px;
 }
+
 .screenshot .boxDesign .box {
   /* box-shadow: 0 0 18px 2px rgba(0, 0, 0, 0.1); */
   transition: 0.5s;
 }
+
 .screenshot .boxDesign .box:hover {
   transform: scale(1.05);
   z-index: 2;
 }
+
 .screenshot .blazeScreenshot .sslink {
   display: inline-block;
   margin-block: 2px;
-  text-decoration: none; /*Gets rid of the underline that anchor tags have by default.*/
+  text-decoration: none;
+  /*Gets rid of the underline that anchor tags have by default.*/
   color: black;
   padding-bottom: 4px;
   position: relative;
 }
+
 .screenshot .blazeScreenshot .sslink::after {
   content: "";
   width: 100%;
   height: 4px;
-  background-color: #3379d4;
+  background-color: #ff2f13;
   border-radius: 4px;
   position: absolute;
   left: 0;
@@ -50,9 +58,11 @@
   transform-origin: left;
   transition: transform 0.5s ease;
 }
+
 .screenshot .blazeScreenshot .sslink:hover::after {
   transform: scaleX(1);
 }
+
 .screenshot .blazeScreenshot {
   font-size: 25px;
   border: 2px black solid;
@@ -64,23 +74,28 @@
   font-size: 20px;
   font-weight: unset;
 }
+
 @media (max-width: 768px) {
   .screenshot .boxDesign {
     flex-direction: column;
     margin: unset;
   }
+
   .screenshot .boxDesign .box {
     margin: 10px auto;
     width: 40%;
     align-items: center;
   }
+
   .screenshot p {
     margin-bottom: 0;
     padding: 0;
   }
+
   .screenshot .boxDesign .box img {
     width: 150%;
   }
+
   .screenshot .blazeScreenshot {
     font-size: 15px;
   }

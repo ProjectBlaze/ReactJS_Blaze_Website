@@ -10,6 +10,7 @@ import Download from "./Components/Download";
 import Disclaimer from "./Components/Disclaimer";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import TermsAndConditions from "./Components/TermsAndConditions";
+
 function App() {
   return (
     <>

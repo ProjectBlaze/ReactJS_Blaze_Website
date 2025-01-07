@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -15,18 +15,20 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light px-lg-5">
       <div className="container-fluid d-flex">
-        <img src={"./images/Brand.png"} alt="Project Blaze" width="150" className="mr-auto" />
+        <Link to="/">
+          <img src={"./icons/logo-transparent.webp"} alt="Project Blaze" width="60" className="mr-auto" />
+        </Link>
         <button
-          className="navbar-toggler ms-auto"
+          className="navbar-toggler border-0 ms-auto"
           type="button"
           onClick={toggleOffcanvas}
         >
-          <span className="navbar-toggler-icon"></span>
+          <i className="bi bi-list fs-1"></i>
         </button>
       </div>
 
       <div
-        className={`offcanvas offcanvas-start ${offcanvasOpen ? "show" : ""}`}
+        className={`offcanvas offcanvas-end ${offcanvasOpen ? "show" : ""}`}
         tabIndex="-1"
         id="sidebar"
         aria-labelledby="sidebarLabel"
@@ -65,18 +67,18 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/ProjectBlaze/maintainership/">
-                Maintainership
+              <a className="nav-link d-flex" href="https://github.com/ProjectBlaze/maintainership/" target="_blank">
+                Maintainership <div className="ms-2"><i className="bi bi-box-arrow-up-right"></i></div>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/ProjectBlaze/">
-                Source
+              <a className="nav-link d-flex" href="https://github.com/ProjectBlaze/official_devices/blob/12.1/changelog.md" target="_blank">
+                Changelog <div className="ms-2"><i className="bi bi-box-arrow-up-right"></i></div>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/ProjectBlaze/official_devices/blob/12.1/changelog.md">
-                Changelog
+              <a className="nav-link d-flex" href="https://github.com/ProjectBlaze/" target="_blank">
+                GitHub <div className="ms-2"><i className="bi bi-box-arrow-up-right"></i></div>
               </a>
             </li>
           </ul>

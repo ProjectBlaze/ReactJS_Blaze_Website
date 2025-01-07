@@ -4,26 +4,32 @@
   text-align: center;
   margin-top: 30px;
 }
-.changelog{
-    min-height: 100vh;
+
+.changelog {
+  min-height: 100vh;
 }
+
 .changelog p .answer {
-  color: #3379d4;
+  color: #ff2f13;
 }
+
 .changelog .containerchangelog {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .changelog .containerchangelog .imageside img {
   width: 340px;
   margin-right: 80px;
 }
+
 .changelog .containerchangelog .textside {
   line-height: 1.5;
   max-width: 55%;
   margin-left: 80px;
 }
+
 .changelog .containerchangelog .textside h1 {
   margin-bottom: 8px;
 }
@@ -33,16 +39,19 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .changelog .containerchangelogleft .imageside img {
   width: 340px;
   margin-left: 80px;
 }
+
 .changelog .containerchangelogleft .textside {
   line-height: 1.5;
   max-width: 55%;
   margin-right: 80px;
   order: 2;
 }
+
 .changelog .containerchangelogleft .imageside {
   order: 1;
 }
@@ -50,41 +59,52 @@
 .changelog .containerchangelogleft .textside h1 {
   margin-bottom: 8px;
 }
+
 @media (max-width: 768px) {
   .changelog p {
     font-size: 30px;
     margin-bottom: 30px;
   }
+
   .changelog .containerchangelog {
     flex-direction: column;
   }
+
   .changelog .containerchangelogleft {
     flex-direction: column;
   }
+
   .changelog .containerchangelogleft .imageside img {
     width: 340px;
     margin-left: 10px;
   }
+
   .changelog .containerchangelogleft .textside {
     margin-right: 10px;
     order: 1;
   }
+
   .changelog .containerchangelogleft .imageside {
     order: 2;
   }
+
   .changelog .containerchangelog .imageside img {
     width: 340px;
     margin-right: 10px;
   }
+
   .changelog .containerchangelog .textside {
     margin-left: 10px;
   }
+
   .changelog .containerchangelog .textside h1 {
     font-size: 25px;
   }
+
   .changelog .containerchangelogleft .textside h1 {
     font-size: 25px;
   }
+
   .changelog p {
     line-height: 1.4;
   }
