@@ -1,4 +1,4 @@
-import "./Stylesheet/BlazeScreenshot.css"
+import "./stylesheet/BlazeScreenshot.css"
 
 const BlazeScreenshot = () => {
   return (

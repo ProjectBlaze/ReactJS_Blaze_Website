@@ -4,7 +4,7 @@ const DownPage = () => {
   return (
     <>
       <div>
-        <footer className="bg-light">
+        <footer>
           <div className="container">
             <div className="row py-4">
               <div className="col-md-4 text-center text-md-start">
