@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Stylesheet/download.css";
+import "./stylesheet/Download.css";
 import NavBar from "./Navbar";
 
 const Download = () => {
@@ -8,7 +8,7 @@ const Download = () => {
     setData(
       await (
         await fetch(
-          "https://raw.githubusercontent.com/ProjectBlaze/official_devices/12.1/post/device.json"
+          "https://raw.githubusercontent.com/ProjectBlaze/official_devices/14/post/device.json"
         )
       ).json()
     );
@@ -26,11 +26,6 @@ const Download = () => {
               return (
                 <div className="card_item" key={element.CodeName}>
                   <div className="card_inner">
-                    <img
-                      src={"images/Desk.jpg"}
-                      alt="DownloadIMG"
-                      style={{ height: "150px", width: "150px" }}
-                    />
                     <div className="role_name">{element.CodeName}</div>
                     <div className="real_name">
                       By

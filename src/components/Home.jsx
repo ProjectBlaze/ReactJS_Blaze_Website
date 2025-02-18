@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import "./Stylesheet/Home.css";
+import "./stylesheet/Home.css";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="child-2 text-center my-5 my-md-0 order-md-2 order-1">
-          <img src={"icons/textProjectBlaze_light.webp"} alt="Device" className="rounded-5 controller" />
+          <img src={"icons/textProjectBlaze_light.webp"} alt="Device" className="rounded-4 controller" />
         </div>
       </div>
     </div>

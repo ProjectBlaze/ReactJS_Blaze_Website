@@ -1,4 +1,4 @@
-import "./Stylesheet/Doubts.css"
+import "./stylesheet/Doubts.css"
 
 const Doubts = () => {
   return (
@@ -23,23 +23,23 @@ const Doubts = () => {
       </div>
     </div>
 
-    &nbsp;&nbsp; 
-    &nbsp;&nbsp; 
-    &nbsp;&nbsp; 
-    
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+
     <div className="containerchangelog">
       <div className="textside">
         <h1>Busting some <span className="safe" style={{color: "rgb(48, 71, 105)"}}>common myths</span></h1>
-        The most important thing beginners feel to install custom ROMs is they immediately without any research finalize that root is mandatory. But no, <b>this isn't true.</b> Root is optional. You can install custom ROMs <b>WITHOUT ROOT.</b> Another thing people easily believe is that custom ROMs increase the performance of a device. This entirely is not true, but instead the developers optimize the device tree for fewer use of hardware resources and removing components that are not required. This indirectly gives more freedom for the phone to perform better. 
+        The most important thing beginners feel to install custom ROMs is they immediately without any research finalize that root is mandatory. But no, <b>this isn't true.</b> Root is optional. You can install custom ROMs <b>WITHOUT ROOT.</b> Another thing people easily believe is that custom ROMs increase the performance of a device. This entirely is not true, but instead the developers optimize the device tree for fewer use of hardware resources and removing components that are not required. This indirectly gives more freedom for the phone to perform better.
       </div>
       <div className="imageside">
         <img src={"images/root.png"} alt=""/>
       </div>
-    </div>    
-    
-    &nbsp;&nbsp; 
-    &nbsp;&nbsp; 
-    &nbsp;&nbsp; 
+    </div>
+
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
 
     <div className="containerchangelogleft">
       <div className="textside">
@@ -53,7 +53,7 @@ const Doubts = () => {
     <div className="containerchangelog my-4">
       <div className="textside">
         <h1>Finally, why<span className="safe" style={{color: "#ff2f13"}}> ProjectBlaze?</span></h1>
-        Blaze is unique from other android 12 ROMs - Remember how Google changed the whole way the QuickSettings panel looked? <b>Well, if you liked those smaller, round Quick Settings tiles from previous android versions which look much cleaner while also retaining the goodness of the MaterialYou theming system - then ProjectBlaze is for you. </b> ProjectBlaze is also a customization feature rich ROM where you can tweak the UI according to your needs. It also has some interesting extras like the all new GameSpace, colored statusbar icons, UDFPS customizations, clear all notifications button, and a ton more!!  
+        Blaze is unique from other android 12 ROMs - Remember how Google changed the whole way the QuickSettings panel looked? <b>Well, if you liked those smaller, round Quick Settings tiles from previous android versions which look much cleaner while also retaining the goodness of the MaterialYou theming system - then ProjectBlaze is for you. </b> ProjectBlaze is also a customization feature rich ROM where you can tweak the UI according to your needs. It also has some interesting extras like the all new GameSpace, colored statusbar icons, UDFPS customizations, clear all notifications button, and a ton more!!
       </div>
       <div className="imageside">
         <img src={"images/sc.png"} alt=""/>

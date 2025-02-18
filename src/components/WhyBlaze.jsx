@@ -1,4 +1,4 @@
-import "./Stylesheet/whyblaze.css";
+import "./stylesheet/WhyBlaze.css";
 
 const WhyBlaze = () => {
     return (

@@ -72,7 +72,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link d-flex" href="https://github.com/ProjectBlaze/official_devices/blob/12.1/changelog.md" target="_blank">
+              <a className="nav-link d-flex" href="https://github.com/ProjectBlaze/official_devices/blob/14/changelog.md" target="_blank">
                 Changelog <div className="ms-2"><i className="bi bi-box-arrow-up-right"></i></div>
               </a>
             </li>

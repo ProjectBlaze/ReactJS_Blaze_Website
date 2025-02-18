@@ -1,15 +1,15 @@
-import "./App.css";
-import BlazeScreenshot from "./Components/BlazeScreenshot";
-import Doubts from "./Components/Doubts";
-import Home from "./Components/Home";
-import Footer from "./Components/Footer";
-import WhyBlaze from "./Components/WhyBlaze";
+import "./components/stylesheet/App.css";
+import BlazeScreenshot from "./components/BlazeScreenshot";
+import Doubts from "./components/Doubts";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+import WhyBlaze from "./components/WhyBlaze";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Download from "./Components/Download";
-import Disclaimer from "./Components/Disclaimer";
-import PrivacyPolicy from "./Components/PrivacyPolicy";
-import TermsAndConditions from "./Components/TermsAndConditions";
+import Navbar from "./components/Navbar";
+import Download from "./components/Download";
+import Disclaimer from "./components/Disclaimer";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsAndConditions from "./components/TermsAndConditions";
 
 function App() {
   return (
@@ -70,7 +70,7 @@ function App() {
             <Footer key="footer" />,
           ]}
         />
-        
+
       </Routes>
     </>
   );
